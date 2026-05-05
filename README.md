@@ -1,16 +1,45 @@
-# React + Vite
+# Abdullah's Developer Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimalist, terminal-inspired personal portfolio built to showcase full-stack web applications and physics-based games. Designed with a focus on clean architecture, maintainability, and zero-magic logic.
 
-Currently, two official plugins are available:
+## 🛠 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Frontend Framework:** React 18
+* **Build Tool:** Vite (for instant HMR and optimized builds)
+* **Styling:** Tailwind CSS v4 (Zero-config, CSS-only integration)
+* **Icons:** Lucide React & Custom SVGs
+* **Typography:** JetBrains Mono & Fira Code
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Terminal Aesthetic:** Custom typewriter effects, blinking cursors, and CLI-style data presentation.
+* **Modular Architecture:** Strictly separated data layers, reusable UI components, and distinct layout sections.
+* **Fully Responsive:** Optimized for both desktop and mobile devices.
+* **Performance Focused:** Built with Vite for lightning-fast load times and pure client-side rendering.
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The codebase is organized bottom-up to separate concerns and ensure maintainability:
+
+```text
+src/
+├── data/
+│   └── portfolioData.js       # Centralized JSON-like data (skills, projects, tags)
+├── components/
+│   ├── ui/                    # Small, reusable, stateless building blocks
+│   │   ├── GithubIcon.jsx     # Custom SVG implementation
+│   │   ├── NavLink.jsx
+│   │   ├── SectionHeading.jsx
+│   │   ├── TagBadge.jsx
+│   │   ├── TerminalCursor.jsx
+│   │   └── TypewriterText.jsx
+│   └── layout/                # Major page sections
+│       ├── Navbar.jsx         # Navigation and scroll state
+│       ├── Hero.jsx           # Landing section
+│       ├── About.jsx          # Terminal-style bio
+│       ├── Skills.jsx         # Tech stack grid
+│       ├── Projects.jsx       # Featured and standard project cards
+│       └── Contact.jsx        # Call to action and links
+├── index.css                  # Tailwind v4 import
+├── App.jsx                    # Root component (Table of Contents)
+└── main.jsx                   # Vite entry point

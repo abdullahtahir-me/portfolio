@@ -7,7 +7,7 @@ import {
 export const skills = [
   { category: "Languages", items: ["TypeScript", "JavaScript", "Python", "Java", "C", "SQL"], icon: Code2 },
   { category: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "Vite", "shadcn/ui"], icon: Layout },
-  { category: "Backend & DB", items: ["Node.js", "Supabase", "PostgreSQL", "Express"], icon: Database },
+  { category: "Backend & DB", items: ["Node.js", "Supabase", "PostgreSQL", "Express", "MongoDB"], icon: Database },
   { category: "Tools & Deployment", items: ["Git", "Vercel", "Linux", "Raylib", "libGDX"], icon: Terminal },
 ];
 

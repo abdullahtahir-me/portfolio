@@ -19,11 +19,10 @@ export default function Hero() {
       <h2 className="text-xl md:text-2xl font-normal text-slate-400 max-w-2xl mb-6 leading-relaxed">
         CS student at <span className="text-white font-medium">PIEAS</span> · I build
         <span className="text-emerald-400"> full-stack web apps</span> and
-        <span className="text-violet-400"> physics-based games</span>.
+        <span className="text-violet-400"> scalable systems</span>.
       </h2>
       <p className="text-slate-500 text-sm max-w-xl mb-10 leading-loose">
-        I care about clean architecture and writing code that actually makes sense six months later.
-        From PostgreSQL transactions to destructible terrain — I love diving deep.
+        I care about clean architecture and writing code that actually makes sense six months later. From robust PostgreSQL transactions to clean React architectures — I love diving deep.
       </p>
 
       <div className="flex flex-wrap gap-3 mb-12">
@@ -48,12 +47,12 @@ export default function Hero() {
           className="text-slate-500 hover:text-emerald-400 transition-colors">
           <Github className="w-5 h-5" />
         </a>
-        <a href="mailto:abdullahkbintahir@gmail.com"
+        <a href="mailto:abdullahkhan1986891@gmail.com"
           className="text-slate-500 hover:text-emerald-400 transition-colors">
           <Mail className="w-5 h-5" />
         </a>
         <div className="h-4 w-px bg-slate-700" />
-        <span className="font-mono text-xs text-slate-600">abdullahkbintahir@gmail.com</span>
+        <span className="font-mono text-xs text-slate-600">abdullahkhan1986891@gmail.com</span>
       </div>
 
       <div className="absolute bottom-10 left-6 flex flex-col items-center gap-2 opacity-30">

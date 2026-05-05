@@ -32,7 +32,7 @@ export default function Navbar() {
           <NavLink href="#projects">projects</NavLink>
           <NavLink href="#contact">contact</NavLink>
           <a
-            href="mailto:abdullahkbintahir@gmail.com"
+            href="mailto:abdullahkhan1986891@gmail.com"
             className="text-xs font-mono border border-emerald-500/40 text-emerald-400 hover:bg-emerald-500/10 px-4 py-2 rounded transition-all duration-200"
           >
             hire me

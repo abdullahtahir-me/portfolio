@@ -12,7 +12,7 @@ export default function Contact() {
         I'm open to internships, freelance, or just a good conversation about Linux, game dev, or clean code. Drop me a line.
       </p>
       <a
-        href="mailto:abdullahkbintahir@gmail.com"
+        href="mailto:abdullahkhan1986891@gmail.com"
         className="inline-flex items-center gap-3 font-mono font-medium text-emerald-400 border-2 border-emerald-500/40 hover:bg-emerald-500/10 hover:border-emerald-400 py-4 px-10 rounded-xl transition-all duration-200"
         style={{ boxShadow: "0 0 30px rgba(16,185,129,0.08)" }}
       >
@@ -25,7 +25,7 @@ export default function Contact() {
           className="text-slate-600 hover:text-emerald-400 transition-colors">
           <Github className="w-5 h-5" />
         </a>
-        <a href="mailto:abdullahkbintahir@gmail.com"
+        <a href="mailto:abdullahkhan1986891@gmail.com"
           className="text-slate-600 hover:text-emerald-400 transition-colors">
           <Mail className="w-5 h-5" />
         </a>
